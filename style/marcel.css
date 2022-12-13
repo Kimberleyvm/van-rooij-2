@@ -1,0 +1,262 @@
+html {
+    min-height: 100%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  body{
+    color: rgb(51, 51, 151);
+    margin: auto;
+  }
+  .header{
+    display: inline-flex;
+    background-color: rgb(233, 140, 0);
+    opacity: none;
+    width: 100%;
+    height: 150px;
+    
+  }@media only screen and (max-width: 800px){
+    .header{
+        height: 100px;
+    }
+  }
+  .logo{
+    height: 150px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 100px;
+  }@media only screen and (max-width: 800px){
+    .logo{
+        height: 100px;
+    }
+  }
+  .font-effect-shadow-multiple{
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 100pt;
+    padding-left: 50px;
+    justify-content: bottom;
+    text-align: center;
+    padding-top: 50px;
+  }@media only screen and (max-width: 800px){
+    .font-effect-shadow-multiple{
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 45pt;
+    padding-left: 10px;
+    padding-top: 150px;
+    }
+  }
+  .logohome{
+    
+    padding-top: 30px;
+    
+    
+  }
+  .custom-button,
+.custom-button:visited {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      border: 2px solid white;
+      text-decoration: none;
+      height: 40px;
+      font-family: 'Bungee Inline', sans-serif;
+      font-size: 20pt;
+      animation-timing-function: ease-in;
+      background-color: rgb(233, 140, 0);
+      margin-left: 10px;
+}
+.custom-button{
+        animation-duration: 2.5s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        
+      }
+@media only screen and (max-width: 800px){
+    .custom-button,
+    .custom-button:visited{
+    display: block;
+    text-align: center;
+    height: 25px;
+}
+}
+
+.custom-button:hover {
+      background: rgb(51, 51, 151);
+      color: orange;
+}
+  
+  
+.fade-in-text {
+    opacity: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 50%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../img/yellow.jpg);
+    animation: fadeIn 3s;
+  }@media only screen and (max-width: 800px)
+  {
+    .fade-in-text{
+      margin-bottom: 0%;
+    }
+  }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+  .vervang {
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 140, 0);
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 45pt;
+    opacity: 100%;
+    padding: 20px;
+    margin: 20px;
+}@media only screen and (max-width: 800px){
+    .vervang{
+        font-size: 20pt;
+        font-family: 'Bungee Inline', sans-serif;
+        padding: 10%;
+        margin-top: 10%;
+    }
+}
+span::before {
+    content: "...";
+    animation: animate ease-out infinite 7s;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Beletteren";
+    }
+    25% {
+        content: "Folie snijden";
+    }
+
+    50% {
+        content: "Ontwerpen";
+    }
+
+    75% {
+        content: "Groot formaat printen";
+    }
+    100% {
+        content: "Zeefdruk stickers";
+    }
+}@keyframes move {
+    from { margin-left: 0px; }
+    to { margin-left: 130px; }
+  }
+  .infos{
+    font-family: 'Bungee Inline', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+  }@media only screen and (max-width: 800px){
+    .infos{
+      padding-top: 5%;
+    }
+  }
+  .slogan{
+    font-family: 'Bungee Inline', sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    font-size: 30pt;
+  }@media only screen and (max-width: 800px){
+    .slogan{
+      font-size: 15pt;
+      padding-left: 0%;
+    }
+  }
+  .twee{
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;
+  }@media only screen and (max-width: 800px){
+    .twee{
+      padding-top: 15%;
+    }
+  }
+  /* over */
+  .diensten{
+    margin-left: 5%;
+    font-family: 'Bungee Inline', sans-serif;
+    padding: 10px;
+    width: 100%;
+    display: inline-flex;
+    
+  }@media only screen and (max-width: 800px){
+    .diensten{
+      margin-left:0;
+    }
+  }
+  li{
+    font-size: 15pt;
+    width:40%;
+  }@media only screen and (max-width: 800px){
+    li{
+      font-size: 11pt;
+    }
+  }
+  aside{
+    width: 70%;
+    margin-right: 25%;
+    
+    padding-top: 10px;
+    padding: 15px;
+    
+    margin-top: 55px;
+    float: right;
+    font-family: 'Bungee Inline', sans-serif;
+    background-color: rgb(233, 140, 0); 
+    opacity: 100%;   
+  }@media only screen and (max-width: 800px){
+    aside{
+      display: hidden;
+      font-size: 12pt;
+      width: 60%;
+      margin-top: 85px;
+      height: 50%;
+    }
+  }
+  .side{
+    margin-left: 250px;
+    width: 50%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    font-family: 'Bungee Inline', sans-serif;
+  }@media only screen and (max-width: 800px){
+    .side{
+      display: none;
+      width: auto;
+      margin: 20px;
+    }
+  }
+  .sidepic{
+    width: 80%;
+    height:auto;
+    padding: 15px;
+    margin: 0px;
+    opacity: 70%;
+  }
