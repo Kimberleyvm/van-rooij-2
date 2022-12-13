@@ -113,7 +113,7 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-image: url(../img/yellow.jpg);
+    background-image: url(yellow.jpg);
     animation: fadeIn 3s;
   }@keyframes fadeIn {
     0% { opacity: 0; }
